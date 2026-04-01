@@ -1,0 +1,106 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0b0b0b;
+    color: white;
+}
+
+section {
+    padding: 100px 0;
+}
+
+.gradient-text {
+    background: linear-gradient(45deg, #00f5a0, #00d9f5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #111;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #00f5a0 !important;
+}
+
+/* Hero */
+.hero img {
+    max-width: 300px;
+    border-radius: 40px;
+    box-shadow: 0 0 40px rgba(22,221,178,0.4);
+    animation: float 4s infinite;
+}
+
+@keyframes float {
+    50% { transform: translateY(-20px); }
+}
+
+/* Buttons */
+.btn-custom {
+    background: linear-gradient(45deg, #00f5a0, #00d9f5);
+    border-radius: 30px;
+}
+
+/* Skills */
+.skill-box {
+    background: #141414;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+/* Cards */
+.card {
+    background-color: #141414;
+    border-radius: 20px;
+}
+
+/* Form */
+.form-control {
+    background: #1a1a1a;
+    color: white;
+}
+.card {
+    background-color: #141414;
+    border: none;
+    -webkit-text-fill-color: white;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,255,200,0.3);
+}
+
+/* ================= CONTACT ================= */
+.form-control {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    color: white;
+    -webkit-text-fill-color: white;
+    border-radius: 12px;
+}
+
+.form-control:focus {
+    border-color: #00f5a0;
+    box-shadow: none;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+footer {
+    background: #111;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-icons a {
+    color: #00f5a0;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
